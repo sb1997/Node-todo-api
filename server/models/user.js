@@ -10,3 +10,13 @@ var User=mongoose.model('User',{
 });
 
 module.exports={User};
+
+// var user = new User({
+//   email:'sb@g.com'
+// });
+//
+// user.save().then(function(doc){
+//   console.log(doc);
+// },function(e){
+//   console.log('unable to save',e);
+// });
